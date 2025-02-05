@@ -12,11 +12,11 @@ let io;
 const userSocketMap = {}; // Stores userId:socketId mapping
 
 const admin = require('firebase-admin');
-const serviceAccount = require('./waste-app-10e23-firebase-adminsdk-3miif-a9179d3e0a.json');
+// const serviceAccount = require('./waste-app-10e23-firebase-adminsdk-3miif-a9179d3e0a.json');
 
-admin.initializeApp({
-  credential: admin.credential.cert(serviceAccount),
-});
+// admin.initializeApp({
+//   credential: admin.credential.cert(serviceAccount),
+// });
 
 const sendNotification = async (title, textMessage, token) => {
   console.log('Sending notification to:', token);
