@@ -27,7 +27,7 @@ const setupSwagger = require('./config/swaggerConfig');
 
 
 const corsOptions = {
-  origin: ['*' , 'https://dirverapp.netlify.app' , 'https://lwmadmin.netlify.app', 'https://localhost:5173' ,'http://localhost:5173'  ,'http://localhost:5174', 'https://londonwastemanagement.netlify.app' , "https://192.168.100.23:5173" , "https://wastewiseserver.onrender.com"], 
+  origin: ['*' , 'https://dirverapp.netlify.app' , 'https://lwmadmin.netlify.app', 'https://localhost:5173' ,'http://localhost:5173'  ,'http://localhost:5174', 'https://londonwastemanagement.netlify.app' , "https://192.168.100.23:5173" , "https://wastewisesolution.netlify.app"], 
   optionsSuccessStatus: 200 
 };
 

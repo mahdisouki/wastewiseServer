@@ -52,7 +52,7 @@ const initSocket = (server) => {
         'https://dirverapp.netlify.app', 
         'https://lwmadmin.netlify.app',
         'https://londonwastemanagement.netlify.app',
-        'https://wastewiseserver.onrender.com'
+        'https://wastewisesolution.netlify.app'
       ],
       methods: ['GET', 'POST'],
       credentials: true,
