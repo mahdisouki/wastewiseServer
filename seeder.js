@@ -50,8 +50,8 @@ async function createAdmin() {
     const hashedPassword = await bcrypt.hash('password', saltRounds);
 
     const admin = new Admin({
-        email: 'admin@wp.com',
-        username: 'adminUser',
+        email: 'admin@admin.com',
+        username: 'Admin',
         password: hashedPassword,
         role: ['Admin'],
     });
@@ -110,6 +110,7 @@ async function createTrucks() {
             location: getRandomLocation(),
             object: 'Moving objects',
             price: 500,
+            totalPrice:500,
             taskStatus: 'Processing',
             paymentStatus: 'Pending',
             additionalNotes: 'Handle with care.',

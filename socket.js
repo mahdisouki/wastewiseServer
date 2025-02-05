@@ -51,7 +51,8 @@ const initSocket = (server) => {
         'https://localhost:5174',
         'https://dirverapp.netlify.app', 
         'https://lwmadmin.netlify.app',
-        'https://londonwastemanagement.netlify.app'
+        'https://londonwastemanagement.netlify.app',
+        'https://wastewiseserver.onrender.com'
       ],
       methods: ['GET', 'POST'],
       credentials: true,
